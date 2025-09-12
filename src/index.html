@@ -1,0 +1,429 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+    <body>
+        <!-- Navbar Section -->
+        <section class="navbar">
+            <nav class="bg-white fixed w-full z-20 top-0 start-0">
+                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
+                    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <img src="/assets/icon/kritme.svg" class="h-12 w-auto drop-shadow-lg" alt="Kritme Logo">
+                        <span class="text-xl font-bold">kritme.id</span>
+                    </a>
+                    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                        <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-dark-600 focus:z-10 focus:ring-4 focus:ring-gray-100">Hubungi Kami</button>
+                        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+                            <li>
+                                <a href="#" class="block py-2 px-2 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-[#B9FF66]">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-2 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-[#B9FF66]">Portofolio</a>
+                            </li>
+                            <li>
+                                <a href="#kelas-section" class="block py-2 px-2 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-[#B9FF66]">Kelas Belajar</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-2 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-[#B9FF66]">Tentang</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- Section Hero -->
+        <section id="hero-section" class="pt-28 pb-10">
+            <div class="max-w-screen-xl mx-auto px-6 lg:px-8">
+                <div class="flex flex-col-reverse lg:flex-row items-center gap-10">
+                    <!-- Text Content -->
+                    <div class="flex-1 text-center lg:text-left space-y-6">
+                        <h1 class="text-4xl md:text-5xl font-bold leading-tight text-gray-900">
+                        Navigating the digital landscape for success
+                        </h1>
+                        <p class="text-gray-600 text-lg md:text-xl leading-relaxed">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facilis qui vitae, eum laborum, totam nemo quas debitis perspiciatis laudantium.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#services" class="px-6 py-3 bg-[#B9FF66] text-gray-900 font-medium rounded-full shadow hover:bg-lime-400 transition">
+                            Get Started
+                        </a>
+                        <a href="#about" class="px-6 py-3 border border-gray-300 text-gray-700 font-medium rounded-full hover:bg-gray-100 transition">
+                            Learn More
+                        </a>
+                        </div>
+                    </div>
+                    <!-- Image -->
+                    <div class="flex-1">
+                        <img src="/assets/image/hero.svg" alt="Hero Illustration" class="w-full max-w-md mx-auto lg:max-w-lg animate-float">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies Section -->
+        <section id="tech-section">
+            <div class="relative overflow-hidden w-full py-10 px-8">
+                <div class="flex gap-16 animate-scroll">
+                    <img src="/assets/icon/golang.svg" alt="icon" class="h-10">
+                    <img src="/assets/icon/nextjs.svg" alt="icon" class="h-10">
+                    <img src="/assets/icon/laravel.svg" alt="icon" class="h-10">
+                    <img src="/assets/icon/react.svg" alt="icon" class="h-10">
+                    <img src="/assets/icon/codeigniter.svg" alt="icon" class="h-10">
+                    <img src="/assets/icon/net.svg" alt="icon" class="h-10">
+                    <img src="/assets/icon/tailwind.svg" alt="icon" class="h-10">
+
+                    <!-- Duplikasi untuk efek loop -->
+                    <img src="/assets/icon/golang.svg" alt="icon" class="h-10">
+                    <img src="/assets/icon/nextjs.svg" alt="icon" class="h-10">
+                    <img src="/assets/icon/laravel.svg" alt="icon" class="h-10">
+                    <img src="/assets/icon/react.svg" alt="icon" class="h-10">
+                    <img src="/assets/icon/codeigniter.svg" alt="icon" class="h-10">
+                    <img src="/assets/icon/net.svg" alt="icon" class="h-10">
+                    <img src="/assets/icon/tailwind.svg" alt="icon" class="h-10">
+                </div>
+            </div>
+        </section>
+
+        <!-- Portofolio Section -->
+        <section id="portofolio-section" class="pt-12 pb-10">
+            <div class="flex flex-col gap-12 max-w-screen-xl mx-auto px-6 lg:px-8">
+                <div class="flex flex-col lg:flex-row items-center gap-10">
+                    <h2 class="text-4xl font-bold bg-[#B9FF66] p-1 rounded-md">Portofolio</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br class="hidden md:block">Praesentium corrupti dolores soluta sed? Reiciendis, dolorum?</span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <a href="#" class="flex flex-col p-2 items-center bg-[#F3F3F3] border border-b-5 border-gray-700 rounded-4xl shadow-sm md:flex-row md:max-w-xl hover:scale-105">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="w-fit px-1 mb-2 text-2xl font-bold rounded-md bg-[#B9FF66] text-gray-900">Project 1</h5>
+                            <p class="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                            <p class="hover:underline font-semibold">See Detail ↗️</p>
+                        </div>
+                        <img class="object-cover w-full h-96 md:h-auto md:w-64" src="/assets/image/project.svg" alt="">
+                    </a>
+                    <a href="#" class="flex flex-col p-2 items-center bg-[#B9FF66] border border-b-5 border-gray-700 rounded-4xl shadow-sm md:flex-row md:max-w-xl hover:scale-105">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="w-fit px-1 mb-2 text-2xl font-bold rounded-md bg-[#F3F3F3] text-gray-900">Project 1</h5>
+                            <p class="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                            <p class="hover:underline font-semibold">See Detail ↗️</p>
+                        </div>
+                        <img class="object-cover w-full h-96 md:h-auto md:w-64" src="/assets/image/project.svg" alt="">
+                    </a>
+                    <a href="#" class="flex flex-col p-2 items-center bg-[#191A23] border border-b-5 border-gray-700 rounded-4xl shadow-sm md:flex-row md:max-w-xl hover:scale-105">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="w-fit px-1 mb-2 text-2xl font-bold rounded-md bg-[#F3F3F3] text-gray-900">Project 1</h5>
+                            <p class="mb-3 font-normal text-gray-200">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                            <p class="hover:underline font-semibold text-gray-200">See Detail ↗️</p>
+                        </div>
+                        <img class="object-cover w-full h-96 md:h-auto md:w-64" src="/assets/image/project.svg" alt="">
+                    </a>
+                    <a href="#" class="flex flex-col p-2 items-center bg-[#F3F3F3] border border-b-5 border-gray-700 rounded-4xl shadow-sm md:flex-row md:max-w-xl hover:scale-105">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="w-fit px-1 mb-2 text-2xl font-bold rounded-md bg-[#B9FF66] text-gray-900">Project 1</h5>
+                            <p class="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                            <p class="hover:underline font-semibold">See Detail ↗️</p>
+                        </div>
+                        <img class="object-cover w-full h-96 md:h-auto md:w-64" src="/assets/image/project.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Do Great -->
+        <section id="why-section" class="pt-12 pb-10">
+            <div class="max-w-screen-xl mx-auto px-6 lg:px-8">
+                <div class="flex flex-col lg:flex-row items-center gap-12 bg-[#F3F3F3] rounded-4xl p-10 lg:px-8 lg:py-4 shadow-sm">
+                
+                    <!-- Text -->
+                    <div class="flex-1 space-y-6 text-center lg:text-left">
+                        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                        Let’s make things happen
+                        </h2>
+                        <p class="text-gray-600 text-lg leading-relaxed">
+                        Mulai dari ide kecil hingga strategi besar, kami siap bantu kamu mewujudkan visi digital dengan solusi tepat, cepat, dan efektif.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#contact" class="px-6 py-3 bg-[#B9FF66] text-gray-900 font-semibold rounded-full shadow hover:bg-lime-400 transition">
+                            Contact Us
+                        </a>
+                        <a href="#services" class="px-6 py-3 border border-gray-300 text-gray-700 font-semibold rounded-full hover:bg-gray-100 transition">
+                            Our Services
+                        </a>
+                        </div>
+                    </div>
+
+                    <!-- Image -->
+                    <div class="flex-1">
+                        <img src="/assets/image/hero.svg" alt="Collaboration Illustration" class="w-full max-w-md mx-auto lg:max-w-lg animate-float">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Kelas Section -->
+        <section id="kelas-section" class="pt-12 pb-10">
+            <div class="flex flex-col gap-12 max-w-screen-xl mx-auto px-6 lg:px-8">
+                <div class="flex flex-col lg:flex-row items-center gap-10">
+                    <h2 class="text-4xl font-bold bg-[#B9FF66] p-1 rounded-md">Kelas Belajar</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br class="hidden md:block">Praesentium corrupti dolores soluta sed? Reiciendis, dolorum?</span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
+                        <a href="https://lynk.id/ruangkodingdigital/947oZJ2" target="_blank">
+                            <img class="rounded-t-lg" src="/assets/image/modul.png" alt="" />
+                        </a>
+                        <div class="p-5">
+                            <a href="https://lynk.id/ruangkodingdigital/947oZJ2" target="_blank">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">12 Modul belajar coding sampai praktik membuat website</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700">Belajar coding dari dasar hingga lanjut dengan modul lengkap dan praktik langsung. Kamu akan mempelajari Algoritma Pemrograman, HTML & CSS, JavaScript, ASP.NET, PHP, Python, Tailwind CSS, Bootstrap, Laravel, dan Golang.</p>
+                            <a href="https://lynk.id/ruangkodingdigital/947oZJ2" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-2xl bg-[#B9FF66] hover:scale-105">
+                                Lihat kelas
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
+                        <a href="https://lynk.id/ruangkodingdigital/v3pok457me7x" target="_blank">
+                            <img class="rounded-t-lg" src="/assets/image/modulgolang.svg" alt="" />
+                        </a>
+                        <div class="p-5">
+                            <a href="https://lynk.id/ruangkodingdigital/v3pok457me7x" target="_blank">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Modul Panduan Belajar Golang Dari Dasar Sampai Membangun Restful API Untuk Backend Developer</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700">Di dalamnya, kamu akan belajar Golang (Go Language) dari nol, tanpa perlu pengalaman sebelumnya. Disusun secara sistematis, modul ini cocok buat kamu yang ingin memahami dasar-dasar Golang hingga mampu membangun RESTful API sendiri—skill penting yang dibutuhkan banyak perusahaan saat ini.</p>
+                            <a href="https://lynk.id/ruangkodingdigital/v3pok457me7x" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-2xl bg-[#B9FF66] hover:scale-105">
+                                Lihat kelas
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
+                        <a href="https://lynk.id/ruangkodingdigital/6D0xEoB" target="_blank">
+                            <img class="rounded-t-lg" src="/assets/image/modul.png" alt="" />
+                        </a>
+                        <div class="p-5">
+                            <a href="https://lynk.id/ruangkodingdigital/6D0xEoB" target="_blank">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Panduan Lengkap Belajar Laravel 12 Dari Nol Hingga Membangun Website</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700">Ingin menguasai Laravel 12 dari dasar? Panduan ini hadir untuk membantumu memahami Laravel secara menyeluruh, mulai dari instalasi hingga praktik langsung membangun fitur berbasis database.</p>
+                            <a href="https://lynk.id/ruangkodingdigital/6D0xEoB" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-2xl bg-[#B9FF66] hover:scale-105">
+                                Lihat kelas
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials-section" class="pt-12 pb-10">
+            <div class="flex flex-col gap-12 max-w-screen-xl mx-auto px-6 lg:px-8">
+                <div class="flex flex-col lg:flex-row items-center gap-10">
+                    <h2 class="text-4xl font-bold bg-[#B9FF66] p-1 rounded-md">Apa Kata Mereka</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br class="hidden md:block">Praesentium corrupti dolores soluta sed? Reiciendis, dolorum?</span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <figure class="max-w-screen-md bg-[#F3F3F3] p-4 rounded-lg">
+                        <div class="flex items-center mb-4 text-yellow-300">
+                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                        </div>
+                        <blockquote>
+                            <p class="text-md font-semibold text-gray-900">"Saya puas ikut kelas di kritme.id. Materinya gampang dipahami dan hasilnya nyata. Sekarang saya bisa punya website sendiri yang rapi dan sesuai kebutuhan."</p>
+                        </blockquote>
+                        <figcaption class="flex items-center mt-6 space-x-3 rtl:space-x-reverse">
+                            <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png" alt="profile picture">
+                            <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-300 dark:divide-gray-700">
+                                <cite class="pe-3 font-medium text-gray-900">Agustina</cite>
+                                <cite class="ps-3 text-sm text-gray-500">Owner Bisnis</cite>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="max-w-screen-md bg-[#F3F3F3] p-4 rounded-lg">
+                        <div class="flex items-center mb-4 text-yellow-300">
+                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                        </div>
+                        <blockquote>
+                            <p class="text-md font-semibold text-gray-900">"Kelas coding online ini enak diikuti. Penjelasannya jelas dan langsung praktik, jadi cepat paham. Dari nol bisa belajar sampai bikin website sendiri. Pas banget buat kamu yang mau mulai belajar coding."</p>
+                        </blockquote>
+                        <figcaption class="flex items-center mt-6 space-x-3 rtl:space-x-reverse">
+                            <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="profile picture">
+                            <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-300 dark:divide-gray-700">
+                                <cite class="pe-3 font-medium text-gray-900">Bonnie Green</cite>
+                                <cite class="ps-3 text-sm text-gray-500">UI | UX Designer</cite>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="max-w-screen-md bg-[#F3F3F3] p-4 rounded-lg">
+                        <div class="flex items-center mb-4 text-yellow-300">
+                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                            </svg>
+                        </div>
+                        <blockquote>
+                            <p class="text-md font-semibold text-gray-900">"Kelas belajar coding online ini sangat membantu. Kamu akan dibimbing step by step dari dasar pemrograman sampai bisa membuat website sendiri. Materinya jelas, mudah dipahami, dan langsung praktik."</p>
+                        </blockquote>
+                        <figcaption class="flex items-center mt-6 space-x-3 rtl:space-x-reverse">
+                            <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/thomas-lean.png" alt="profile picture">
+                            <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-300 dark:divide-gray-700">
+                                <cite class="pe-3 font-medium text-gray-900">Ahmad Effendi</cite>
+                                <cite class="ps-3 text-sm text-gray-500">Student</cite>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-section" class="pt-12 pb-10">
+            <div class="flex flex-col gap-12 max-w-screen-xl mx-auto px-6 lg:px-8">
+                <div class="flex flex-col lg:flex-row items-center gap-10">
+                <h2 class="text-4xl font-bold bg-[#B9FF66] p-1 rounded-md">Hubungi Kami</h2>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <br class="hidden md:block">Praesentium corrupti dolores soluta sed? Reiciendis, dolorum?
+                </span>
+                </div>
+
+                <div class="flex flex-col lg:flex-row items-center gap-12 bg-[#F3F3F3] rounded-4xl p-10 lg:px-8 lg:py-4 shadow-sm">
+                
+                <!-- Input -->
+                <div class="flex-1 space-y-6 text-center lg:text-left">
+                    <div class="flex flex-col gap-8">
+                        <div>
+                            <label for="full_name" class="block mb-2 text-sm font-medium text-gray-900">Full Name*</label>
+                            <input type="text" id="full_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="John Doe" required />
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email*</label>
+                            <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="jhon@mail.com" required />
+                        </div>
+                        <div>
+                            <label for="message" class="block mb-2 text-sm font-medium text-gray-900">Message*</label>
+                            <input type="text" id="message" class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-base focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <button type="button" class="text-white bg-[#191A23] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 hover:scale-105">Kirim</button>
+                    </div>
+                </div>
+
+                <!-- Image with half circle -->
+                <div class="flex items-end">
+                    <div class="bg-[#B9FF66] rounded-l-full overflow-hidden">
+                    <img src="/assets/image/contact-ilustration.svg" alt="Collaboration Illustration" class="w-full max-w-md mx-auto lg:max-w-lg">
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section id="footer-section" class="pt-12">
+            <div class="max-w-screen-xl mx-auto px-6 lg:px-8">
+                <div class="flex flex-col gap-12 bg-[#191A23] rounded-t-4xl lg:px-12 lg:py-10 text-white shadow-sm">
+
+                <!-- Top Footer -->
+                <div class="flex flex-col lg:flex-row justify-between items-start gap-12">
+                    
+                    <!-- Brand -->
+                    <div class="flex flex-col gap-4 flex-1">
+                        <h2 class="text-2xl font-bold">kritme.id</h2>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Bangun keterampilan coding kamu dengan modul, course, dan resource praktis.
+                        </p>
+                        <div class="flex gap-4 mt-2">
+                            <a href="#" class="hover:text-[#B9FF66] transition">Facebook</a>
+                            <a href="#" class="hover:text-[#B9FF66] transition">Instagram</a>
+                            <a href="#" class="hover:text-[#B9FF66] transition">LinkedIn</a>
+                        </div>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="flex flex-col gap-3 flex-1">
+                        <h3 class="font-semibold text-lg">Navigasi</h3>
+                        <a href="#home" class="text-gray-400 hover:text-[#B9FF66] transition">Home</a>
+                        <a href="#services" class="text-gray-400 hover:text-[#B9FF66] transition">Services</a>
+                        <a href="#about" class="text-gray-400 hover:text-[#B9FF66] transition">About</a>
+                        <a href="#contact" class="text-gray-400 hover:text-[#B9FF66] transition">Contact</a>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="flex flex-col gap-3 flex-1">
+                        <h3 class="font-semibold text-lg">Kontak</h3>
+                        <p class="text-gray-400 text-sm">Email: support@kritme.id</p>
+                        <p class="text-gray-400 text-sm">Telp: +62 812-3456-7890</p>
+                        <p class="text-gray-400 text-sm">Alamat: Jakarta, Indonesia</p>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
+                    © 2025 kritme.id. All rights reserved.
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    </body>
+</html>
