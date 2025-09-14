@@ -100,44 +100,56 @@
 
         <!-- Portofolio Section -->
         <section id="portofolio-section" class="pt-12 pb-10">
-            <div class="flex flex-col gap-12 max-w-screen-xl mx-auto px-6 lg:px-8">
-                <div class="flex flex-col lg:flex-row items-center gap-10">
-                    <h2 class="text-4xl font-bold bg-[#B9FF66] p-1 rounded-md">Portofolio</h2>
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br class="hidden md:block">Praesentium corrupti dolores soluta sed? Reiciendis, dolorum?</span>
+            <div class="flex flex-col gap-12 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+                <!-- Header -->
+                <div class="flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-10">
+                    <h2 class="text-3xl sm:text-4xl font-bold bg-[#B9FF66] px-2 py-1 rounded-md">Portofolio</h2>
+                    <span class="text-gray-700 text-base sm:text-lg">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br class="hidden md:block">Praesentium corrupti dolores soluta sed? Reiciendis, dolorum?
+                    </span>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <a href="https://villa-landing-page.vercel.app/" target="_blank" class="flex flex-col p-2 items-center bg-[#F3F3F3] border border-b-5 border-gray-700 rounded-4xl shadow-sm md:flex-row md:max-w-xl hover:scale-105">
-                        <div class="flex flex-col justify-between p-4 leading-normal">
-                            <h5 class="w-fit px-1 mb-2 text-2xl font-bold rounded-md bg-[#B9FF66] text-gray-900">Landing Page Villa</h5>
-                            <p class="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                            <p class="hover:underline font-semibold">See Detail ↗️</p>
+                <!-- Grid Portofolio -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <!-- Card 1 -->
+                    <a href="https://villa-landing-page.vercel.app/" target="_blank" class="flex flex-col md:flex-row items-center bg-[#F3F3F3] border border-gray-700 rounded-2xl shadow-sm hover:scale-105 transition-transform">
+                        <div class="flex flex-col justify-between p-4">
+                        <h5 class="mb-2 text-xl sm:text-2xl font-bold rounded-md bg-[#B9FF66] px-2 py-1 text-gray-900">Landing Page Villa</h5>
+                        <p class="mb-3 text-sm sm:text-base text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                        <p class="hover:underline font-semibold">See Detail ↗️</p>
                         </div>
-                        <img class="object-cover w-full h-96 md:h-auto md:w-64" src="./assets/image/portofolio1.svg" alt="">
+                        <img class="object-cover w-full h-56 sm:h-72 md:h-auto md:w-64 rounded-b-2xl md:rounded-r-2xl md:rounded-b-none" src="./assets/image/portofolio1.svg" alt="">
                     </a>
-                    <a href="https://agency-bootstrap.vercel.app/" target="_blank" class="flex flex-col p-2 items-center bg-[#B9FF66] border border-b-5 border-gray-700 rounded-4xl shadow-sm md:flex-row md:max-w-xl hover:scale-105">
-                        <div class="flex flex-col justify-between p-4 leading-normal">
-                            <h5 class="w-fit px-1 mb-2 text-2xl font-bold rounded-md bg-[#F3F3F3] text-gray-900">Landing Page Agency</h5>
-                            <p class="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                            <p class="hover:underline font-semibold">See Detail ↗️</p>
+
+                    <!-- Card 2 -->
+                    <a href="https://agency-bootstrap.vercel.app/" target="_blank" class="flex flex-col md:flex-row items-center bg-[#B9FF66] border border-gray-700 rounded-2xl shadow-sm hover:scale-105 transition-transform">
+                        <div class="flex flex-col justify-between p-4">
+                        <h5 class="mb-2 text-xl sm:text-2xl font-bold rounded-md bg-[#F3F3F3] px-2 py-1 text-gray-900">Landing Page Agency</h5>
+                        <p class="mb-3 text-sm sm:text-base text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                        <p class="hover:underline font-semibold">See Detail ↗️</p>
                         </div>
-                        <img class="object-cover w-full h-96 md:h-auto md:w-64" src="./assets/image/portofolio2.svg" alt="">
+                        <img class="object-cover w-full h-56 sm:h-72 md:h-auto md:w-64 rounded-b-2xl md:rounded-r-2xl md:rounded-b-none" src="./assets/image/portofolio2.svg" alt="">
                     </a>
-                    <a href="https://coffee-street-jade.vercel.app/" target="_blank" class="flex flex-col p-2 items-center bg-[#191A23] border border-b-5 border-gray-700 rounded-4xl shadow-sm md:flex-row md:max-w-xl hover:scale-105">
-                        <div class="flex flex-col justify-between p-4 leading-normal">
-                            <h5 class="w-fit px-1 mb-2 text-2xl font-bold rounded-md bg-[#F3F3F3] text-gray-900">Coffee Shop</h5>
-                            <p class="mb-3 font-normal text-gray-200">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                            <p class="hover:underline font-semibold text-gray-200">See Detail ↗️</p>
+
+                    <!-- Card 3 -->
+                    <a href="https://coffee-street-jade.vercel.app/" target="_blank" class="flex flex-col md:flex-row items-center bg-[#191A23] border border-gray-700 rounded-2xl shadow-sm hover:scale-105 transition-transform">
+                        <div class="flex flex-col justify-between p-4">
+                        <h5 class="mb-2 text-xl sm:text-2xl font-bold rounded-md bg-[#F3F3F3] px-2 py-1 text-gray-900">Coffee Shop</h5>
+                        <p class="mb-3 text-sm sm:text-base text-gray-200">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                        <p class="hover:underline font-semibold text-gray-200">See Detail ↗️</p>
                         </div>
-                        <img class="object-cover w-full h-96 md:h-auto md:w-64" src="./assets/image/portofolio3.svg" alt="">
+                        <img class="object-cover w-full h-56 sm:h-72 md:h-auto md:w-64 rounded-b-2xl md:rounded-r-2xl md:rounded-b-none" src="./assets/image/portofolio3.svg" alt="">
                     </a>
-                    <a href="https://landing-hosting-company.vercel.app/" target="_blank" class="flex flex-col p-2 items-center bg-[#F3F3F3] border border-b-5 border-gray-700 rounded-4xl shadow-sm md:flex-row md:max-w-xl hover:scale-105">
-                        <div class="flex flex-col justify-between p-4 leading-normal">
-                            <h5 class="w-fit px-1 mb-2 text-2xl font-bold rounded-md bg-[#B9FF66] text-gray-900">Hosting Company</h5>
-                            <p class="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                            <p class="hover:underline font-semibold">See Detail ↗️</p>
+
+                    <!-- Card 4 -->
+                    <a href="https://landing-hosting-company.vercel.app/" target="_blank" class="flex flex-col md:flex-row items-center bg-[#F3F3F3] border border-gray-700 rounded-2xl shadow-sm hover:scale-105 transition-transform">
+                        <div class="flex flex-col justify-between p-4">
+                        <h5 class="mb-2 text-xl sm:text-2xl font-bold rounded-md bg-[#B9FF66] px-2 py-1 text-gray-900">Hosting Company</h5>
+                        <p class="mb-3 text-sm sm:text-base text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                        <p class="hover:underline font-semibold">See Detail ↗️</p>
                         </div>
-                        <img class="object-cover w-full h-96 md:h-auto md:w-64" src="./assets/image/portofolio4.svg" alt="">
+                        <img class="object-cover w-full h-56 sm:h-72 md:h-auto md:w-64 rounded-b-2xl md:rounded-r-2xl md:rounded-b-none" src="./assets/image/portofolio4.svg" alt="">
                     </a>
                 </div>
             </div>
